@@ -8,7 +8,7 @@ class User
         // method implementation here
     }
 
-    // invalid: Duplicate type `string` is redundant
+    // skipcq: PHP-T1005
     public function getUser(): string|int|object|string
     {
         // method implementation here
