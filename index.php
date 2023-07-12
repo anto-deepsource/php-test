@@ -2,7 +2,7 @@
 
 class User
 {
-    // invalid: class methods can't be defined in PascalCase
+    # skipcq: PHP-C1001
     public function GetUsers(): array
     {
         // method implementation here
