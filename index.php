@@ -1,3 +1,5 @@
+<?php
+
 class User
 {
     // invalid: class methods can't be defined in PascalCase
