@@ -1,1 +1,8 @@
-mkdir('/path/to/dir', 0777);
+class User
+{
+    // invalid: class methods can't be defined in PascalCase
+    public function GetUser(): array
+    {
+        // method implementation here
+    }
+}
